@@ -1,0 +1,122 @@
+<html>
+    <head>
+        <style>
+.popular-car {
+  max-width: 800px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.car-slider {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.car-types {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.car-type-box {
+  min-width: 100%;
+  box-sizing: border-box;
+}
+
+.prev-slide, .next-slide {
+  background-color: rgba(0, 0, 0, 0.5);
+  border: none;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.prev-slide {
+  left: 0;
+}
+
+.next-slide {
+  right: 0;
+}
+
+        </style>
+    </head>
+    <body>
+        <div class="popular-car">
+            <h1>Most popular cars</h1>
+            <div class="car-slider">
+              <button class="prev-slide">&#10094;</button>
+              <div class="car-types">
+                <div class="car-type-box">
+                  <img src="images/bluecar.svg" alt="">
+                  <div class="car-type-content">
+                    <p id="car-name">Mitsubishi Eclipse</p>
+                    <p id="car-description">Eclipse Cross is a fusion of sharp coupe looks and dynamic SUV mobility with signature
+                      Mitsubishi styling, technology and driving confidence.</p>
+                    <div class="car-specification">
+                      <p><img src="icons/people.svg" alt=""> 6 People</p>
+                      <p><img src="icons/automatic.svg" alt="">Automatic</p>
+                      <p><img src="icons/door-icon.svg" alt="">5 Doors</p>
+                      <p><img src="icons/ac.svg" alt="">AC</p>
+                    </div>
+                    <div class="car-content-bottom">
+                      <p>AED 2700/ Monthly</p>
+                      <button class="book-now-button">Book Now</button>
+                    </div>
+                  </div>
+                </div>
+        
+                <div class="car-type-box">
+                  <img src="images/redcar.svg" alt="">
+                  <div class="car-type-content">
+                    <p id="car-name">Jac J7</p>
+                    <p id="car-description">S3 Plus has been rated Five-Star in C-NCAP including front impact, side impact, frontal side impact & Whipping test.
+                    </p>
+                    <div class="car-specification">
+                      <p><img src="icons/people.svg" alt=""> 6 People</p>
+                      <p><img src="icons/automatic.svg" alt="">Automatic</p>
+                      <p><img src="icons/door-icon.svg" alt="">5 Doors</p>
+                      <p><img src="icons/ac.svg" alt="">AC</p>
+                    </div>
+                    <div class="car-content-bottom">
+                      <p>AED 2700/ Monthly</p>
+                      <button class="book-now-button">Book Now</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <button class="next-slide">&#10095;</button>
+            </div>
+        </div>
+        
+    </body>
+
+    <script>
+        let slideIndex = 0;
+
+function showSlide(index) {
+  const slides = document.querySelectorAll('.car-type-box');
+  const totalSlides = slides.length;
+
+  if (index >= totalSlides) slideIndex = 0;
+  if (index < 0) slideIndex = totalSlides - 1;
+
+  document.querySelector('.car-types').style.transform = `translateX(-${slideIndex * 100}%)`;
+}
+
+document.querySelector('.next-slide').addEventListener('click', function () {
+  slideIndex++;
+  showSlide(slideIndex);
+});
+
+document.querySelector('.prev-slide').addEventListener('click', function () {
+  slideIndex--;
+  showSlide(slideIndex);
+});
+
+    </script>
+</html>

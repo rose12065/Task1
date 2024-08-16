@@ -661,7 +661,6 @@ text-align: left;
         top: 333px;
         left: -65px;
         font-size: 16px;
-
 }
 
   .car-type-box{
@@ -673,6 +672,8 @@ text-align: left;
     position: relative;
     top: -405px;
     left: -52px;
+    display: inline;
+
   }
   .car-content-bottom{
     display: inline;
@@ -684,6 +685,11 @@ text-align: left;
   .car-content-bottom p{
     margin: 0px;
   }
+  .car-type-content {
+    padding-left: 40px;
+    padding-bottom: 23px;
+}
+
 
 }
 
@@ -780,3 +786,4 @@ text-align: left;
       margin: 0px;
     }
 }
+
