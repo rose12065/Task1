@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Car Rental</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+  <head>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+</head>
+
+<body>
+  <header>
+    <div class="social_header">
+      <a href="#"><img src="icons/fb.png" alt="" /></a>
+      <a href="#"><img src="icons/insta.png" alt="" /></a>
+      <a href="#"><img src="icons/twitter.png" alt="" /></a>
+      <a href=""><img src="icons/linkdlin.png" alt="" /></a>
+    </div>
+    <div class="nav_header">
+      <div class="nav_logo">
+        <img src="images/Layer_1.svg" alt="" />
+
+        <div class="hamburger" onclick="toggleMenu()">
+          <i class="fas fa-bars"></i>
+        </div>
+      </div>
+      <div class="nav_elements">
+        <span class="close-btn">&times;</span>
+        <ul>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Offers</a></li>
+          <li><a href="#">Corporate</a></li>
+          <li><a href="#">Personal</a></li>
+          <li><a href="#">Locations</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+        <div class="nav-right">
+          <i class="fas fa-bell" style="font-size: 24px"></i>
+          <span class="notification-count">1</span>
+          <div class="user_name">
+            <div class="user_name_icon">J</div>
+            <div class="name">John Deo</div>
+          </div>
+        </div>
+
+        <div class="login-signup">
+          <button>Log In/sign Up</button>
+        </div>
+
+      </div>
+    </div>
+    <div class="nav-text">
+      <p>
+        sunday pick Up/Drop-Off only at Dubai Silicon Oasis & Habtoor Grand
+        sales Counters | All rates inclusive of VAT.T&C's apply | Follow us on
+        social media for New offers
+      </p>
+    </div>
+  </header>
+
+  <!-- Quick Book Section -->
+  <div class="quick-book">
+    <div class="side-icon">
+      <img src="icons/phn.svg" alt="" id="phone-icon">
+      <img src="icons/24x7.svg" alt="" id="time-icon">
+    </div>
+    <div class="type">
+      <div class="pick-up">same as pick-up
+        <hr>
+      </div>
+      <div class="drop-off">Different Drop-Off</div>
+      <div class="vehicle-type">Select vehicle type</div>
+    </div>
+
+    <div class="booking">
+      <div class="location">
+        <img src="icons/map.svg" alt=""> Al Quoz
+        <div class="dropdown"></div>
+      </div>
+      <div class="date-time">
+        <img src="icons/calender.svg" alt="Calendar Icon" id="calendarIcon">
+        <span id="selectedDatetime">30/10/2023 09:00 AM</span>
+      </div>
+
+      <div class="datetime-dropdown" id="datetimeDropdown">
+        <input type="date" id="dateInput">
+        <input type="time" id="timeInput">
+        <button id="setDatetime">Set</button>
+      </div>
+
+      <div class="date-time">
+        <img src="icons/calender.svg" alt="Calendar Icon" id="calendarIcon">
+        <span id="selectedDatetime">30/10/2023 09:00 AM</span>
+      </div>
+
+      <div class="datetime-dropdown" id="datetimeDropdown">
+        <input type="date" id="dateInput">
+        <input type="time" id="timeInput">
+        <button id="setDatetime">Set</button>
+      </div>
+
+      <div class="search"><img src="icons/search.svg" alt=""></div>
+      <hr>
+      <div class="book">Quick Book</div>
+    </div>
+    <div class="quick-book-bottom">
+      <div class="message">Download our App for easy accessibility anytime, anywhere!</div>
+      <img src="images/appstore.svg" alt="">
+      <img src="images/playstore.svg" alt="">
+    </div>
+    <div class="car-button">
+      <button class="book-car">Book a car</button>
+      <button class="quick-book-car"> Quick Book</button>
+    </div>
+  </div>
+
+
+  <div class="summer-promotion">
+    <div class="msg">Recieve guarnteed <button>GIFT VOUCHER</button><br>on a monthly hire or lease</div>
+  </div>
+
+  <div class="popular-car">
+    <h1>Most popular cars</h1>
+    <div class="car-types">
+
+      <div class="car-type-box">
+        <img src="images/bluecar.svg" alt="">
+        <div class="car-type-content">
+          <p id="car-name">Mitsubishi Eclipse</p>
+          <p id="car-description">Eclipse Cross is a fusion of sharp coupe looks and dynamic SUV mobility with signature
+            Mitsubishi styling, technology and driving confidence.</p>
+          <div class="car-specification">
+            <p><img src="icons/people.svg" alt=""> 6 People</p>
+            <p><img src="icons/automatic.svg" alt="">Automatic</p>
+            <p><img src="icons/door-icon.svg" alt="">5 Doors</p>
+            <p><img src="icons/ac.svg" alt="">AC</p>
+          </div>
+          <div class="car-content-bottom">
+            <p>AED 2700/ Monthly</p>
+            <button class="book-now-button">Book Now</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="car-type-box">
+        <img src="images/redcar.svg" alt="">
+        <div class="car-type-content">
+          <p id="car-name">Jac J7</p>
+          <p id="car-description">S3 Plus has been rated Five-Star in C-NCAP including front impact, side impact, frontal side impact & Whipping test.
+          </p>
+          <div class="car-specification">
+            <p><img src="icons/people.svg" alt=""> 6 People</p>
+            <p><img src="icons/automatic.svg" alt="">Automatic</p>
+            <p><img src="icons/door-icon.svg" alt="">5 Doors</p>
+            <p><img src="icons/ac.svg" alt="">AC</p>
+          </div>
+          <div class="car-content-bottom">
+            <p>AED 2700/ Monthly</p>
+            <button class="book-now-button">Book Now</button>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+
+
+  <script src="script/script.js"></script>
+</body>
+
+</html>
