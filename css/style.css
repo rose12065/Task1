@@ -324,104 +324,99 @@ body {
   border: none;
 }
 
-.popular-car{
+.popular-car {
   position: absolute;
   width: 314px;
-height: 52px;
-gap: 0px;
-opacity: 0px;
-
+  height: 52px;
+  gap: 0px;
+  opacity: 0px;
 }
 
-.popular-car h1{
+.popular-car h1 {
   font-family: Poppins;
-font-size: 34.74px;
-font-weight: 400;
-line-height: 52.11px;
-text-align: center;
-position: absolute;
-width: 314px;
-height: 52px;
-top: 700px;
-left: 567px;
-gap: 0px;
-opacity: 0px;
-
+  font-size: 34.74px;
+  font-weight: 400;
+  line-height: 52.11px;
+  text-align: center;
+  position: absolute;
+  width: 314px;
+  height: 52px;
+  top: 700px;
+  left: 567px;
+  gap: 0px;
+  opacity: 0px;
 }
 
-.car-types{
-display: flex;
-flex-direction: row;
-gap: 22px;
-
+.car-types {
+  display: flex;
+  flex-direction: row;
+  gap: 22px;
 }
-.car-type-box{
+.car-type-box {
   position: relative;
-width: 754px;
-height: 290px;
-top: 800px;
-left: 64px;
-gap: 0px;
-opacity: 0px;
-display: flex;
-flex-direction: row;
-border: 1px solid #D9D9D9
+  width: 754px;
+  height: 290px;
+  top: 800px;
+  left: 64px;
+  gap: 0px;
+  opacity: 0px;
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #d9d9d9;
 }
-#car-name{
-font-size: 28px;
-font-weight: 500;
-line-height: 42px;
-text-align: left;
+#car-name {
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 42px;
+  text-align: left;
 }
-#car-description{
+#car-description {
   font-family: Poppins;
-font-size: 12px;
-font-weight: 400;
-line-height: 18.5px;
-text-align: left;
-width: 298px;
-height: 37px;
-top: 964px;
-left: 466px;
-gap: 0px;
-opacity: 0.8;
-
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18.5px;
+  text-align: left;
+  width: 298px;
+  height: 37px;
+  top: 964px;
+  left: 466px;
+  gap: 0px;
+  opacity: 0.8;
 }
-.car-type-content{
+.car-type-content {
   padding-left: 42px;
   padding-bottom: 72px;
 }
-.car-specification{
-  display: flex; 
-  flex-direction: row; 
-}
-.car-specification p{
-  padding: 4px;
-  font-family: Poppins;
-font-size: 11px;
-font-weight: 500;
-text-align: left;
-}
-.car-specification img{
-  padding: 5px;
-}
-.car-content-bottom{
+.car-specification {
   display: flex;
   flex-direction: row;
 }
-.car-content-bottom p{
+.car-specification p {
+  padding: 4px;
   font-family: Poppins;
-font-size: 16px;
-font-weight: 600;
-line-height: 24px;
-text-align: left;
-
+  font-size: 11px;
+  font-weight: 500;
+  text-align: left;
 }
-.book-now-button{
+.car-specification img {
+  padding: 5px;
+}
+.car-content-bottom {
+  display: flex;
+  flex-direction: row;
+}
+.car-content-bottom p {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+}
+.book-now-button {
   width: 108px;
   padding: 0px 20px 0px 20px;
   border-radius: 4px;
-  background: #E21E26;
+  background: #e21e26;
   border: none;
   font-family: Poppins;
   font-size: 14px;
@@ -434,97 +429,94 @@ text-align: left;
   height: 37px;
   margin-top: 8px;
 }
-.subscription{
+.subscription {
   display: flex;
   flex-direction: row;
   position: absolute;
   width: 1234px;
-height: 506px;
-top: 1224px;
-left: 142px;
-gap: 0px;
-opacity: 0px;
+  height: 506px;
+  top: 1224px;
+  left: 142px;
+  gap: 0px;
+  opacity: 0px;
 }
-.subscribe-content{
+.subscribe-content {
   width: 644px;
-height: 506px;
-top: 1224px;
-left: 732px;
-gap: 0px;
-opacity: 0px;
+  height: 506px;
+  top: 1224px;
+  left: 732px;
+  gap: 0px;
+  opacity: 0px;
 }
-.subscribe-offer{
-
+.subscribe-offer {
   font-family: Poppins;
   font-size: 34px;
   font-weight: 400;
   line-height: 51px;
   text-align: left;
-  
 }
-.subscribe-content input{
-  background: #F8F8F8;
-border: none;
-width: 223px;
-height: 45px;
-top: 1403px;
-left: 140px;
-border-radius: 5px;
-opacity: 0px;
-margin: 10px;
+.subscribe-content input {
+  background: #f8f8f8;
+  border: none;
+  width: 223px;
+  height: 45px;
+  top: 1403px;
+  left: 130px;
+  border-radius: 5px;
+  opacity: 0px;
+  margin: 10px;
 }
-.subscription-message{
+.subscription-message {
   font-family: Poppins;
-font-size: 14px;
-font-weight: 300;
-line-height: 21px;
-text-align: left;
-width: 478px;
-height: 42px;
-top: 1464px;
-left: 143px;
-gap: 0px;
-opacity: 0px;
-
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 21px;
+  text-align: left;
+  width: 478px;
+  height: 42px;
+  top: 1464px;
+  left: 143px;
+  gap: 0px;
+  opacity: 0px;
 }
-.subscription-message-mobile{
+.subscription-message-mobile {
   display: none;
 }
-.subscribe-button{
+.subscribe-button {
   width: 464px;
-height: 57.08px;
-top: 1546px;
-left: 142px;
-gap: 0px;
-border-radius: 5px;
-opacity: 0px;
-background: #E21E26;
-font-family: Poppins;
-font-size: 16px;
-font-weight: 500;
-line-height: 24px;
-text-align: center;
-color: #FFFFFF;border: none;
-margin-top: 50px;
-
+  height: 57.08px;
+  top: 1546px;
+  left: 142px;
+  gap: 0px;
+  border-radius: 5px;
+  opacity: 0px;
+  background: #e21e26;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+  border: none;
+  margin-top: 50px;
 }
-.mobile-app{
+.mobile-app {
   width: 644px;
-height: 506px;
-top: 1224px;
-left: 732px;
-gap: 0px;
-opacity: 0px;
+  height: 506px;
+  top: 1224px;
+  left: 732px;
+  gap: 0px;
+  opacity: 0px;
 
-  background-color: #E21E26;
+  background-color: #e21e26;
   display: flex;
   flex-direction: row;
 }
 
-#mobile-app-img{
-padding: 40px;
+#mobile-app-img {
+  padding: 40px;
 }
-.app-content p{
+.app-content p {
   position: absolute;
   width: 233px;
   height: 43px;
@@ -536,24 +528,23 @@ padding: 40px;
   text-align: left;
   color: white;
 }
-.app-content input{
+.app-content input {
   position: absolute;
   width: 263px;
   height: 45px;
   top: 190px;
   left: 925px;
-border-radius: 5px;
-background: #F8F8F8;
-text-align: left;
-font-size: 14px;
-font-weight: 400;
-line-height: 18px;
-padding: 5px;
-margin: 0px;
-border: none;
-
+  border-radius: 5px;
+  background: #f8f8f8;
+  text-align: left;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  padding: 5px;
+  margin: 0px;
+  border: none;
 }
-.getlink-button{
+.getlink-button {
   top: 1471.42px;
   left: 1053px;
   padding: 16px 32px 16px 32px;
@@ -570,31 +561,29 @@ border: none;
   background-color: #000;
   color: #fff;
   border: none;
-
 }
-.app-store{
+.app-store {
   width: 63px;
-height: 21px;
-top: 1558.42px;
-left: 1053px;
-gap: 0px;
-opacity: 0px;
-
+  height: 21px;
+  top: 1558.42px;
+  left: 1053px;
+  gap: 0px;
+  opacity: 0px;
 }
-.app-store p{
+.app-store p {
   width: 63px;
   height: 21px;
   top: 316px;
-    left: 930px;
+  left: 930px;
   opacity: 0px;
 }
-.application-img{
+.application-img {
   display: flex;
-    flex-direction: row;
-    top: 366px;
-    position: absolute;
-    left: 928px;
-    gap: 13px;
+  flex-direction: row;
+  top: 366px;
+  position: absolute;
+  left: 928px;
+  gap: 13px;
 }
 @media screen and (max-width: 768px) {
   body {
@@ -818,91 +807,87 @@ opacity: 0px;
     border-radius: 0px;
     font-size: 10px;
   }
-.popular-car h1{
-  position: absolute;
-        top: 333px;
-        left: -65px;
-        font-size: 16px;
-}
-
-  .car-type-box{
-    display: inline;
-    border: 1px solid #D9D9D9;
-    position: relative;
-width: 754px;
-height: 290px;
-    
+  .popular-car h1 {
+    position: absolute;
+    top: 333px;
+    left: -65px;
+    font-size: 16px;
   }
-  .car-types{
+
+  .car-type-box {
+    display: inline;
+    border: 1px solid #d9d9d9;
+    position: relative;
+    width: 754px;
+    height: 290px;
+  }
+  .car-types {
     position: relative;
     top: -405px;
     left: -52px;
     display: inline;
-
   }
-  .car-content-bottom{
+  .car-content-bottom {
     display: inline;
     margin-top: 0px;
   }
-  .book-now-button{
+  .book-now-button {
     margin: 0px;
   }
-  .car-content-bottom p{
+  .car-content-bottom p {
     margin: 0px;
   }
   .car-type-content {
     padding-left: 40px;
     padding-bottom: 23px;
-}
+  }
 
-.subscription{
-  display: inline;
-  position: absolute;
-  /* width: 110px; */
-  /* height: 442px; */
-  top: 1687px;
-  left: 36px;
-}
-.subscribe-content{
-  width: 257px;
-  height: 442px;
-  top: 1687px;
-  left: 36px;
-}
-.subscribe-offer{
-  font-family: Poppins;
-font-size: 16px;
-font-weight: 400;
-line-height: 24px;
-text-align: left;
-
-}
-.subscription-message{
-  display: none;
-}
-.subscription-message-mobile{
-  font-family: Poppins;
-  font-size: 14px;
-  font-weight: 300;
-  line-height: 21px;
-  text-align: left;
-  height: 42px;
-  top: 1464px;
-  left: 143px;
-  opacity: 80%;
-  display: block;
-  width: 352px;
-}
-.subscribe-content input{
-width: 400px;
-height: 45px;
-}
-.subscribe-button{
-  width: 200px;
-height: 57.08px;
-
-margin-top: 20px;
-}
+  .subscription {
+    display: inline;
+    position: absolute;
+    /* width: 110px; */
+    /* height: 442px; */
+    top: 1687px;
+    left: 36px;
+  }
+  .subscribe-content {
+    width: 257px;
+    height: 442px;
+    top: 1687px;
+    left: 36px;
+  }
+  .subscribe-offer {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+  }
+  .subscription-message {
+    display: none;
+  }
+  .subscription-message-mobile {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 21px;
+    text-align: left;
+    height: 42px;
+    top: 1464px;
+    left: 143px;
+    opacity: 80%;
+    display: block;
+    width: 352px;
+  }
+  .subscribe-content input {
+    width: 266px;
+    height: 45px;
+  }
+  .subscribe-button {
+    width: 200px;
+    height: 57.08px;
+    margin-top: 20px;
+  }
 }
 
 @media (max-width: 480px) {
@@ -968,34 +953,30 @@ margin-top: 20px;
     top: 7px;
     left: 291px;
   }
-  .popular-car h1{
+  .popular-car h1 {
     position: absolute;
-          top: 333px;
-          left: -65px;
-          font-size: 16px;
-  
+    top: 333px;
+    left: -65px;
+    font-size: 16px;
   }
-  
-    .car-type-box{
-      display: inline;
-      border: 1px solid #D9D9D9
-      
-    }
-    .car-types{
-      position: relative;
-      top: -405px;
-      left: -52px;
-      
-    }
-    .car-content-bottom{
-      display: inline;
-      margin-top: 0px;
-    }
-    .book-now-button{
-      margin: 0px;
-    }
-    .car-content-bottom p{
-      margin: 0px;
-    }
-}
 
+  .car-type-box {
+    display: inline;
+    border: 1px solid #d9d9d9;
+  }
+  .car-types {
+    position: relative;
+    top: -405px;
+    left: -52px;
+  }
+  .car-content-bottom {
+    display: inline;
+    margin-top: 0px;
+  }
+  .book-now-button {
+    margin: 0px;
+  }
+  .car-content-bottom p {
+    margin: 0px;
+  }
+}
