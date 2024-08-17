@@ -570,7 +570,11 @@ body {
   gap: 0px;
   opacity: 0px;
 }
-.app-store p {
+.app-store p{
+  top: 314.42px;
+    left: 926px;
+}
+.dwls-msg-desk {
   width: 63px;
   height: 21px;
   top: 316px;
@@ -584,6 +588,246 @@ body {
   position: absolute;
   left: 928px;
   gap: 13px;
+}
+.app-content-mobile{
+  display: none;
+}
+.rent-steps{
+  position: absolute;
+  width: 518px;
+height: 51px;
+top: 1770px;
+left: 469px;
+gap: 0px;
+opacity: 0px;
+
+}
+.rent-heading{
+  font-family: Poppins;
+font-size: 34px;
+font-weight: 400;
+line-height: 51px;
+text-align: center;
+}
+.steps{
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  left: -330px;
+  position: absolute;
+}
+.step-no{
+  font-family: Poppins;
+font-size: 40px;
+font-weight: 400;
+line-height: 32px;
+text-align: center;
+color: #E21E26;
+
+}
+.step-description{
+  width: 348px;
+height: 178px;
+top: 1921px;
+left: 153px;
+gap: 0px;
+border: 1px ;
+opacity: 0px;
+border: 1px solid #000000
+}
+.step-des{
+  font-family: Helvetica;
+font-size: 14px;
+font-weight: 400;
+line-height: 18.5px;
+text-align: center;
+padding: 20px;
+
+}
+.rent-steps img{
+  padding-left: 150px;
+  padding-top: 10px;
+}
+.company-locations{
+  position: absolute;
+  width: 1312px;
+height: 325px;
+top: 2250px;
+left: 64px;
+gap: 0px;
+opacity: 0px;
+background: #000000;
+}
+.location-head{
+  
+  position: absolute;
+  width: 163px;
+height: 51px;
+top: 56px;
+left: 569px;
+gap: 0px;
+opacity: 0px;
+
+}
+.location-head p{
+  font-family: Poppins;
+font-size: 34px;
+font-weight: 400;
+line-height: 51px;
+text-align: center;
+color: #FFFFFF;
+}
+
+.single-location img{
+  width: 15px;
+  height: 15px;
+  padding-right: 5px ;
+}
+.location-types hr{
+  width: 0px;
+height: 30px;
+top: 220px;
+left: 506px;
+gap: 0px;
+border: 1px ;
+opacity: 20%;
+border: 1px solid #FFFFFF
+}
+.location-types{
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  width: -4.12px;
+  height: 28.59px;
+  top: 186.41px;
+  left: 111px;
+  gap: 81.12px;
+  opacity: 80%;
+  color: #fff;
+}
+.frequent-questions{
+  position: absolute;
+  width: 499px;
+height: 35px;
+top: 2560px;
+left: 471px;
+gap: 0px;
+opacity: 0px;
+}
+.frequent-head{
+  font-family: Poppins;
+font-size: 34px;
+font-weight: 400;
+line-height: 51px;
+text-align: center;
+
+}
+.question-accordion{
+  position: absolute;
+    width: 1059px;
+    height: 55px;
+    top: 124px;
+    left: -307px;
+    padding: 16px 0px 16px 0px;
+    gap: 16px;
+    opacity: 0px;
+  
+}
+.accordion {
+  background-color: #fff;
+  color: #444;
+  cursor: pointer;
+  padding: 20px;
+  width:  1100px;
+    height: 55px;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 16px;
+  transition: 0.4s;
+  border-bottom: 1px solid #cdd6da90;
+}
+
+.accordion:after {
+  content: '\002B';
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "x";
+}
+
+.panel {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+.panel p{
+  opacity: 50%;
+  font-size: 14px;
+}
+.footer{
+  position: absolute;
+  width: 1440px;
+height: 303px;
+top: 3020px;
+background: #000000;
+display: flex;
+flex-direction: row;
+}
+.company-logo{
+  position: absolute;
+  width: 177.52px;
+    height: 40.91px;
+    top: -217.86px;
+    left: 37.04px;
+    gap: 0px;
+    opacity: 0px;
+    color: white;
+}
+.company-logo p{
+  margin-top: 0px;
+  padding-left: 27px;
+}
+.footer-middle{
+  position: absolute;
+  width: 794px;
+  height: 20px;
+  top: 7px;
+  left: 311.5px;
+  gap: 0px;
+  opacity: 0px;
+  display: flex;
+  flex-direction: row;
+
+}
+.footer-middle ul{
+  color: white;
+}
+.footer-middle li{
+  list-style: none;
+  display: flex;
+  flex-wrap: nowrap;
+  padding: 10px;
+}
+.middle-bottom ul{
+  position: absolute;
+  color: #fff;
+  width: -6px;
+  height: 24px;
+  top: 184px;
+  left: 319px;
+  gap: 21px;
+  opacity: 0px;
+  display: flex;
+  flex-wrap: nowrap;
+}
+.middle-bottom li{
+  display: flex;
+  flex-direction: row;
 }
 @media screen and (max-width: 768px) {
   body {
@@ -888,7 +1132,163 @@ body {
     height: 57.08px;
     margin-top: 20px;
   }
+  .mobile-app {
+    width: 328px;
+    height: 380px;
+    top: 392px;
+    left: 1px;
+    gap: 0px;
+    opacity: 0px;
+    border-radius: 10px;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+  }
+  .app-content {
+    display: none;
+  }
+  #mobile-app-img {
+    padding: 0px;
+  }
+  .app-content-mobile{
+    display: inline;
+  }
+  .application-img{
+    display: inline;
+    top: 50px;
+    position: absolute;
+    left: 130px;
+
+  }
+  #mobile-app-img{
+    width: 136px;
+height: 245px;
+  }
+  .get-in-on{
+    font-size: 14px;
+    color: #ffff;
+  }
+  
+  .dwld-msg{
+    font-size: 10px;
+    color: #ffff;
+    padding-top: 100px;
+    width: 150px;
+  }
+#phn{
+  position: absolute;
+  width: 241px;
+  height: 34px;
+  top: 232px;
+  left: 19px;
+  border-radius: 5px;
+  background: #f8f8f8;
+  text-align: left;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  padding: 5px;
+  margin: 0px;
+  border: none;
 }
+.getlink-button{
+  left: 22px;
+  top: 289px;
+}
+.rent-steps{
+  position: absolute;
+        width: 518px;
+        height: 51px;
+        top: 2480px;
+        left: 363px;
+    }
+    .rent-heading{
+      position: absolute;
+      width: 251px;
+      height: 24px;
+      top: -14px;
+      left: -325px;
+      gap: 0px;
+      opacity: 0px;
+      font-family: Poppins;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+      text-align: left;
+    }  
+    .steps{
+      display: inline;
+      }
+      .step-description{
+        width: 326px;
+      }
+      .company-locations{
+        position: absolute;
+        width: 328px;
+height: 151px;
+top: 3400px;
+left: 31px;
+gap: 0px;
+opacity: 0px;
+
+      }
+      .location-head{
+        position: absolute;
+        width: 123px;
+        height: 51px;
+        top: -11px;
+        left: -6px;
+      }
+      .location-head p{
+        font-size: 16px;
+      }
+      .location-types{
+        position: absolute;
+        display: flex;
+        height: 28.59px;
+        top: 50.41px;
+        left: 17px;
+        gap: 21.2px;
+        opacity: 80%;
+        color: #fff;
+        flex-wrap: wrap;
+    
+      }
+      .location-types hr{
+        display: none;
+      }
+
+      .frequent-questions{
+        position: absolute;
+        width: 242px;
+        height: 98px;
+        top: 3547px;
+        left: 30px;
+        gap: 0px;
+        opacity: 0px;
+      }
+      .frequent-head{
+        font-family: Poppins;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+
+      }
+      .question-accordion{
+        position: absolute;
+        top: 33px;
+        left: -21px;
+      }
+      .accordion{
+        width: 366px;
+        height: 2px;
+      } 
+      .panel{
+        width: 300px;
+      } 
+  }
+
 
 @media (max-width: 480px) {
   body {
