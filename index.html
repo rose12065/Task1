@@ -75,13 +75,25 @@
         <hr>
       </div>
       <div class="drop-off">Different Drop-Off</div>
-      <div class="vehicle-type">Select vehicle type</div>
+      <div class="vehicle-type"> 
+        <select name="vehicle-type" id="vehicle-type">
+          <option >Select vehicle type</option>
+          <option >Saab</option>
+          <option >Mercedes</option>
+          <option >Audi</option>
+        </select>
+      </div>
     </div>
 
     <div class="booking">
       <div class="location">
-        <img src="icons/map.svg" alt=""> Al Quoz
-        <div class="dropdown"></div>
+        <img src="icons/map.svg" alt="">
+        <select name="location-dropdown" id="location-dropdown">
+          <option > Al Quoz</option>
+          <option > Al Quoz</option>
+          <option > Al Quoz</option>
+          <option > Al Quoz</option>
+        </select>
       </div>
       <div class="date-time">
         <img src="icons/calender.svg" alt="Calendar Icon" id="calendarIcon">
@@ -185,7 +197,7 @@
 
     <div class="mobile-app">
       <img src="images/mobileapp.svg" alt="" id="mobile-app-img">
-      
+
       <div class="app-content">
         <p class="dwld-mag-desk">Enter your number and receive
           a direct link to download the app</p>
@@ -223,21 +235,23 @@
         <p class="step-no">01</p>
         <div class="step-description">
           <img src="icons/map-red.svg" alt="">
-          <p class="step-des">Select the location. Browse through our available options and find the perfect car to suit your needs</p>
+          <p class="step-des">Select the location. Browse through our available options and find the perfect car to suit
+            your needs</p>
         </div>
       </div>
       <div class="step-category">
         <p class="step-no">02</p>
         <div class="step-description">
           <img src="icons/red-calender.svg" alt="">
-        <p class="step-des">Choose your desired Pick-Up date and time.</p>  
+          <p class="step-des">Choose your desired Pick-Up date and time.</p>
         </div>
       </div>
       <div class="step-category">
         <p class="step-no">03</p>
         <div class="step-description">
           <img src="icons/car-icon-red.svg" alt="">
-        <p class="step-des">Make payment and book the car. Select an option to either have the car delivered to your location or pick it up directly from us.</p>  
+          <p class="step-des">Make payment and book the car. Select an option to either have the car delivered to your
+            location or pick it up directly from us.</p>
         </div>
       </div>
     </div>
@@ -276,84 +290,125 @@
     </div>
     <div class="question-accordion">
       <button class="accordion">What is my eligibility to book a car?</button>
-<div class="panel">
-  <p>You should be of 18 years old above and you must possess a valid driving license</p>
-</div>
+      <div class="panel">
+        <p>You should be of 18 years old above and you must possess a valid driving license</p>
+      </div>
 
-<button class="accordion">Can i book for any period of time?</button>
-<div class="panel">
-  <p></p>
-</div>
+      <button class="accordion">Can i book for any period of time?</button>
+      <div class="panel">
+        <p></p>
+      </div>
 
-<button class="accordion">Can i book one-way trip?</button>
-<div class="panel">
-  <p></p>
-</div>
+      <button class="accordion">Can i book one-way trip?</button>
+      <div class="panel">
+        <p></p>
+      </div>
 
-<button class="accordion">Is there home delivery option available?</button>
-<div class="panel">
-  <p></p>
-</div>
+      <button class="accordion">Is there home delivery option available?</button>
+      <div class="panel">
+        <p></p>
+      </div>
 
-<button class="accordion">How can i make the payment?</button>
-<div class="panel">
-  <p></p>
-</div>
+      <button class="accordion">How can i make the payment?</button>
+      <div class="panel">
+        <p></p>
+      </div>
     </div>
   </div>
 
   <div class="footer">
-    <div class="company-logo">
-      <img src="images/footer-logo-black.png" alt="">
-      <p>Member of the 
-        Al Habtoor Group</p>
-    </div>
-    <div class="footer-middle">
-      <ul>
-        <li>Home</li>
-        <li>About Us</li>
-        <li>Services</li>
-        <li>Al Habtoor Companies</li>
-      </ul>
-      <ul>
-        <li>Offers</li>
-        <li>Locations</li>
-        <li>Contact Us</li>
-      </ul>
-      <ul>
-        <li>FAQ</li>
-        <li>Privacy Policy</li>
-        <li>Service Request</li>
-      </ul>
-      <ul>
-        <li>Career</li>
-        <li>Terms & Conditions</li>
-      </ul>
-      
-    </div>
-    <div class="middle-bottom">
-      <ul>
-        <li>Hospitality</li>
-        <li>Real Estate</li>
-        <li>Education</li>
-        <li>Publishing</li>
-        <li>Automotive</li>
-        <li>Automotive</li>
-      </ul>
-    </div>
-    <div class="follow-us">
-      fOLLOW US ON
+    <div class="desktop-footer">
+
+      <div class="company-logo">
+        <img src="images/footer-logo-black.png" alt="">
+        <p>Member of the
+          Al Habtoor Group</p>
+      </div>
+      <div class="footer-middle">
+        <ul>
+          <li>Home</li>
+          <li>About Us</li>
+          <li>Services</li>
+          <li>Al Habtoor Companies</li>
+        </ul>
+        <ul>
+          <li>Offers</li>
+          <li>Locations</li>
+          <li>Contact Us</li>
+        </ul>
+        <ul>
+          <li>FAQ</li>
+          <li>Privacy Policy</li>
+          <li>Service Request</li>
+        </ul>
+        <ul>
+          <li>Career</li>
+          <li>Terms & Conditions</li>
+        </ul>
+
+      </div>
+      <div class="middle-bottom">
+        <ul>
+          <li>Hospitality</li>
+          <li>Real Estate</li>
+          <li>Education</li>
+          <li>Publishing</li>
+          <li>Automotive</li>
+          <li>Vehicle Leasing</li>
+        </ul>
+      </div>
+      <div class="follow-us">
+        FOLLOW US ON
         <img src="icons/Group 1261156306.png" alt="">
         <div class="follow-img">
           <img src="images/image 270.svg" alt="">
           <img src="images/image 273.svg" alt="">
         </div>
+      </div>
+      <hr>
+
+      <p class="copy-right">© 2018 Diamondlease LLC - All Rights Reserved. </p>
+
     </div>
-    <hr>
-    
-    <p class="copy-right">© 2018 Diamondlease LLC - All Rights Reserved. </p>
-    
+    <div class="mobile-footer">
+      <div class="white-footer">
+        <img src="images/white-company-logo.svg" alt="">
+        <img src="icons/black-followicon.svg" alt="">
+      </div>
+      <div class="quick-menu">
+        <ul>
+          <li>Home</li>
+          <li>Offers</li>
+          <li>Career</li>
+          <li>About Us</li>
+          <li>Locations</li>
+          <li>FAQ</li>
+          <li>Terms & Conditions</li>
+          <li>Service Request</li>
+          <li>Privacy Policy</li>
+          <li>Services</li>
+          <li>Contact Us</li>
+        </ul>
+      </div>
+      <div class="black-footer">
+        <p>Al Habtoor Companies</p>
+        <ul>
+          <li>Hospitality</li>
+          <li>Real Estate</li>
+          <li>Education</li>
+          <li>Publishing</li>
+          <li>Automotive</li>
+          <li>Vehicle Leasing</li>
+        </ul>
+        <img src="images/secure-white.svg" alt="">
+        <hr>
+        <p class="copy-right-mobile">© 2018 Diamondlease LLC - All Rights Reserved. </p>
+
+      </div>
+    </div>
   </div>
+
+
   <script src="script/script.js"></script>
 </body>
 
