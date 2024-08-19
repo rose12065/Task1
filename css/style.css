@@ -869,15 +869,17 @@ body {
 .mobile-footer {
   display: none;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 360px) {
+  
   body {
     font-family: "Poppins", sans-serif;
     margin: 0;
     padding: 0;
-    width: 100%;
-    height: auto;
-    overflow-x: hidden;
     position: absolute;
+    
+  }
+  header{
+    width: 100px;
   }
   .social_header {
     display: none;
@@ -902,22 +904,23 @@ body {
   }
   .hamburger {
     display: block;
-    cursor: pointer;
-    left: 79%;
-    position: absolute;
-    top: 6%;
+        cursor: pointer;
+        left: 20%;
+        position: absolute;
+        top: 45%;
   }
   .nav_elements {
     display: none;
-    position: absolute;
-    right: 0;
-    top: 24%;
-    width: 200px;
-    box-shadow: 0 4px 8px rgba(236, 230, 230, 0.793);
-    flex-direction: column;
-    z-index: 1000;
-    padding: 20px;
-    background-color: white;
+        position: absolute;
+        right: 0;
+        top: 98%;
+        width: 200px;
+        box-shadow: 0 4px 8px rgba(236, 230, 230, 0.793);
+        flex-direction: column;
+        z-index: 977;
+        padding: 20px;
+        background-color: white;
+        left: 112px;
   }
   .nav_elements.show {
     display: flex;
@@ -977,7 +980,7 @@ body {
     font-size: 14px;
   }
   .nav-text p {
-    display: block;
+    display: none;
     overflow: hidden;
     white-space: nowrap;
     box-sizing: border-box;
@@ -1121,9 +1124,10 @@ body {
   }
   .subscription {
     display: inline;
-    position: absolute;
-    top: 1687px;
-    left: 36px;
+        position: absolute;
+        top: 1687px;
+        left: 36px;
+        width: 351px;
   }
   .subscribe-content {
     width: 257px;
@@ -1305,6 +1309,7 @@ body {
     position: absolute;
     top: 33px;
     left: -21px;
+    width: 100px;
   }
   .accordion {
     width: 366px;
@@ -1402,8 +1407,8 @@ body {
     opacity: 0px;
   }
 }
-
-@media (max-width: 480px) {
+/* 
+@media (max-width: 768px) {
   body {
     font-family: "Poppins", sans-serif;
     margin: 0;
@@ -1492,4 +1497,4 @@ body {
   .car-content-bottom p {
     margin: 0px;
   }
-}
+} */
