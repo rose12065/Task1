@@ -870,7 +870,9 @@ body {
   display: none;
 }
 @media screen and (max-width: 360px) {
-  
+  .container{
+    width: 360px;
+  }
   body {
     font-family: "Poppins", sans-serif;
     margin: 0;
