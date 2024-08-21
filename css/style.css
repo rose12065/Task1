@@ -982,8 +982,8 @@ body {
     font-size: 14px;
   }
   .nav-text p {
-    display: none;
-    overflow: hidden;
+    display: block;
+    overflow:hidden;
     white-space: nowrap;
     box-sizing: border-box;
     animation: marquee 20s linear infinite;
@@ -1018,6 +1018,7 @@ body {
     left: 38px;
     color: #fff;
   }
+  
   .side-icon {
     position: absolute;
     top: 7px;
